@@ -4,8 +4,33 @@
         grid-column: full-start / col-end 4;
     }
 
-    &__photos {
+    &__img-1 {
+        width: 100%;
+    }
+
+    &__img--2 {
+        width: 100%;
+    }
+
+    &__content {
         background-color: $color-grey-light-1;
         grid-column: col-start 5 / full-end;
+
+        padding: 6rem 8vw;
+        
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        // align-items: flex-start;
+
+        display: grid;
+        align-content: center;
+        justify-items: start;
+    }
+
+    &__text {
+        font-size: 1.5rem;
+        font-style: italic;
+        margin-bottom: 4rem;
     }
 }
